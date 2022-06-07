@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+
+  BODY {
+    margin: 20px;
+  }
+
+  .cart {
+    width: 411px;
+    height: 201px;
+    background: black;
+    border: 5px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 30px;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    
+  }
+  
+  .logo {
+    width: 60px;
+  height: 60px;
+    margin-right: 20px;
+  }
+  
+  .text {
+    color: #D9D9DA;
+    font-size: 20px;
+    line-height: 12px;
+  }
+  
+  .text2 {
+   color: white;
+   font-size: 20px;
+   margin-top: 20px
+  }
+
+ 
