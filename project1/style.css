@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+BODY {
+  font-family: sans-serif;
+}
+
+.logo {
+  font-size: 20px;
+  padding-right: 80px;
+}
+
+.button {
+  background-color: white;
+  border: 2px solid #5696e9;
+  color: #5696e9;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.login {
+  padding-right: 10px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  cursor: pointer;
+}
+
+LI {
+  padding-right: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+
+}
+
+.title {
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.text {
+  padding-bottom: 40px;
+}
+
+.strong {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.button2 {
+  background-color: #2574e4;
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid #2574e4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  color: gray;
+  font-size: 13px;
+  padding-top: 20px;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  background-color:  rgb(200, 219, 219);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px;
+}
+
+.dots {
+  font-size: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.play {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 14px solid white;
+  border-bottom: 10px solid transparent;
+  margin-left: 5px;
+}
+
+.circle {
+height: 60px;
+width: 60px;
+background-color: #2574e4;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: all 0.6s;
+box-shadow: 5px 5px 15px grey;
+}
+
+.circle:hover {
+  box-shadow: none;
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #2574e4;
+  margin-bottom: 5px;
+  transition: width 0.3s;
+
+}
+
+.underline:hover::after {
+  width: 80%;
+}
