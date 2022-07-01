@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+BODY {
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 25px;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-list LI {
+    padding: 20px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.block-image {
+    width: 1280px;
+    height: 544px;
+    border-bottom: 5px solid red;
+    background-image: url(nam.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block-text {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 46px;
+    color: white;
+    width: 625px;
+    padding-left: 155px;
+    padding-top: 130px;
+}
+
+.blockline-cont {
+    padding-left: 155px;
+    padding-top: 50px;
+}
+
+.vertline-block {
+    width: 200px;
+    border: 1px solid white;  
+}
+
+.aboutnam {
+    font-size: 15px;
+    color: white;
+    margin: auto;
+    padding: 10px 0 10px 40px;
+}
+
+.block-cube {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 100px;
+}
+
+.blackcube {
+    width: 10px;
+    height: 10px;
+    background: black;
+}
+
+.whitecube {
+    width: 10px;
+    height: 10px;
+    background: white;
+}
+
+.content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+   
+
+.leftcontent {
+    color: black;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.fig {
+    font-size: 10px;
+    margin-top: 30px;
+    line-height: 24px;
+    margin-right: 50px;
+}
+
+.fig02,
+.fig03 {
+    margin-top: 49px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.fig-text {
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+.fig-text02,
+.fig-text03 {
+    margin-top: 49px;
+}
+
+.fig-text03 {
+    margin-bottom: 50px;
+}
+
+.leftcontent-line {
+    width: 200px;
+    border: 1px solid black;
+}
+
+.linecontent {
+    padding: 10px 0 10px 70px;
+}
+
+.content-img {
+    border-bottom: 5px solid black;
+}
+
