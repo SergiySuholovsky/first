@@ -28,11 +28,6 @@ BODY {
     align-items: center;
 }
 
-.main {
-    /* display: flex; */
-    /* justify-content: center; */
-}
-
 .block-image {
     width: 100%;
     height: 544px;
@@ -47,23 +42,21 @@ BODY {
     font-weight: bold;
     line-height: 46px;
     color: white;
-    width: 625px;
-    padding-left: 155px;
+    width: 480px;
+    /* padding-left: 155px; */
     padding-top: 130px;
 }
 
 .blockline-cont {
-    margin-left: 155px;
+    /* margin-left: 155px; */
     margin-top: 50px;
 }
-
-
 
 .block-cube {
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .blackcube {
@@ -78,14 +71,14 @@ BODY {
     background: white;
 }
 
-.container {
+.section-two {
     margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.section-two {
+.container {
     max-width: 1000px;
     padding: 0 15px;
     margin: 0 auto;
@@ -95,21 +88,9 @@ BODY {
     color: black;
 }
 
-.title {
+.section-two__title {
     font-size: 36px;
     font-weight: bold;
-}
-
-.fig {
-    font-size: 10px;
-    margin-top: 30px;
-    line-height: 24px;
-    margin-right: 50px;
-}
-
-.fig02,
-.fig03 {
-    margin-top: 49px;
 }
 
 .wrapper {
@@ -154,6 +135,7 @@ BODY {
     /* min-width: 200px; */
     padding: 20px 50px;
     text-transform: uppercase;
+    
 }
 
 .btn--white {
@@ -180,4 +162,74 @@ BODY {
 .content-img {
     border-bottom: 5px solid black;
 }
+
+.section-three {
+    width: 100%;
+    height: 345px;
+    background: #1B1B3A;
+    color: white;
+    /* margin-bottom: 70px; */
+}
+
+.section-three__title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.figures {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.full-number {
+    font-size: 80px;
+}
+
+.number-signation {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.border-number {
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+}
+
+.section-four {
+    padding: 70px;
+}
+
+.section-four__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.holder-box {
+    display: flex;
+    gap: 20px;
+}
+
+.holder {
+    /* width: 471px; */
+    /* height: 170px; */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-left: 5px solid #F3274C;
+    display: flex;
+    align-items: center;
+    padding: 25px 20px 25px 30px;
+    gap: 26px;
+}
+
+.holder-content {
+    width: 352px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
 
