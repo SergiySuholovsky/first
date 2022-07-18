@@ -4,6 +4,7 @@
 
   BODY {
     margin: 20px;
+    font-family: sans-serif;
   }
 
   .cart {
@@ -41,4 +42,17 @@
    margin-top: 20px
   }
 
- 
+ .cart2 {
+  width: 450px;
+  /* border: 1px solid black; */
+  border: 2mm ridge rgba(76, 76, 60, 0.6);
+  margin-top: 20px;
+  background:  linear-gradient(#6ba854, #c3dee0);
+  padding: 10px;
+ }
+
+ P {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+ }

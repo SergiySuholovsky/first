@@ -6,6 +6,13 @@ BODY {
     font-family: sans-serif;
 }
 
+.container {
+    max-width: 1000px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -16,6 +23,7 @@ BODY {
 
 .header-list {
     display: flex;
+    cursor: pointer;
 }
 
 .header-list LI {
@@ -28,14 +36,14 @@ BODY {
     align-items: center;
 }
 
-.block-image {
+ .block-image {
     width: 100%;
     height: 544px;
     border-bottom: 5px solid red;
     background-image: url(nam.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
+} 
 
 .block-text {
     font-size: 30px;
@@ -48,7 +56,6 @@ BODY {
 }
 
 .blockline-cont {
-    /* margin-left: 155px; */
     margin-top: 50px;
 }
 
@@ -71,18 +78,13 @@ BODY {
     background: white;
 }
 
+/*  */
+
 .section-two {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
-}
-
-.container {
-    max-width: 1000px;
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .leftcontent {
@@ -165,6 +167,8 @@ BODY {
     border-bottom: 5px solid black;
 }
 
+/*  */
+
 .section-three {
     width: 100%;
     height: 345px;
@@ -200,6 +204,8 @@ BODY {
     -webkit-text-fill-color: transparent;
     font-size: 80px;
 }
+
+/*  */
 
 .section-four {
     padding: 70px;
@@ -237,6 +243,8 @@ BODY {
     line-height: 24px;
     font-size: 14px;
 }
+
+/*  */
 
 .section-five__gallery {
     display: flex;
@@ -302,6 +310,8 @@ BODY {
     margin-top: 40px;
 }
 
+/*  */
+
 .section-six {
     margin-top: 50px;
 }
@@ -337,6 +347,8 @@ BODY {
     line-height: 24px;
     margin-top: 30px;
 }
+
+/*  */
 
 .section-seven {
     padding-top: 70px;
@@ -402,6 +414,8 @@ BODY {
     margin-bottom: 30px;
 }
 
+/*  */
+
 .section-eight {
     background: #F9F9F9;
     padding-top: 70px;
@@ -433,12 +447,26 @@ BODY {
     padding: 40px 30px 40px 30px;
 }
 
+/*  */
+
 .section-nine {
     padding: 70px 30px;
 }
 
 .cart-image {
     margin-bottom: 20px;
+}
+
+.img-rectangle {
+    color: white;
+    font-size: 10px;
+    width: 152px;
+    padding: 14px;
+    text-align: center;
+    background-color:  #F3274C;
+    position: absolute;
+    left: 0;
+    top: 29px;
 }
 
 .cart-date {
@@ -460,6 +488,7 @@ BODY {
 
 .section-nine__cart {
     width: calc(50% - 10px);
+    position: relative;
 }
 
 .section-nine__rightcontent {
@@ -482,8 +511,10 @@ BODY {
     margin-bottom: 50px;
 }
 
+/*  */
+
 .footer {
-    padding: 40px 30px;
+    padding: 40px 30px 20px 30px;
     background: #1B1B3A;
     color: white;
 }
