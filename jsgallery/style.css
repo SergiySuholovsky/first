@@ -4,7 +4,7 @@
 
 BODY {
     margin: 0;
-    padding: 0;
+    padding: 5px;
     font-family: sans-serif;
 }
 
@@ -16,7 +16,7 @@ BODY {
 
 #gallery .photos {
     position: relative;
-    height: 670px;
+    height: 525px;
 }
 
 #gallery .photos IMG {
@@ -24,18 +24,9 @@ BODY {
     position: absolute;
     left: 0;
     opacity: 0;
-    transition: all 1s;
+    transition: opacity 1s;
 }
 
-#gallery .photos IMG .showed {
+#gallery .photos IMG.showed {
     opacity: 1;
-}
-
-.prev,
-.next {
-    padding: 5px;
-    background: rgb(49, 216, 71);
-    color: white;
-    border:1px solid white; 
-
 }
