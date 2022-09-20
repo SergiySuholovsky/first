@@ -6,15 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/reset-css@5.0.1/reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.mobile.css" />
+    <link rel="stylesheet" href="style.tablet.css" />
+
     <title>NAM</title>
   </head>
   <body>
 
     <header class="header">
       <div class="header-logo">
-        <img src="namlogo.png" alt="nam" />
+        <img src="namlogo.png" alt="nam" class="mobile-logo" />
       </div>
-      <div class="mobile-menu__button">X</div>
+      <svg class="open_menu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="4" y="4.5332" width="16" height="2.13333" fill="black"/>
+        <rect x="4" y="10.9336" width="16" height="2.13333" fill="black"/>
+        <rect x="4" y="17.333" width="16" height="2.13333" fill="black"/>
+      </svg>
+      <svg class="close_menu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 13.7778L18.2222 20L20 18.2222L13.7778 12L20 5.77778L18.2222 4L12 10.2222L5.77778 4L4 5.77778L10.2222 12L4 18.2222L5.77778 20L12 13.7778Z" fill="black"/>
+        </svg>
+        
+        
       <ul class="header-list">
         <li>ПРО АСОЦІАЦІЮ</li>
         <li>ЧЛЕНСТВО</li>
@@ -24,6 +36,7 @@
         <li>ДОСЛІДЖЕННЯ</li>
         <li>КОНТАКТИ</li>
       </ul>
+      
       <ul class="header-icons">
         <li>UA</li>
         <li>
@@ -240,6 +253,7 @@
       </div>
       <div class="section-six__image">
         <div class="container">
+          <div class="section-six__wrap">
           <div class="image-text">
             Розпочався прийом робіт на Конкурс Професійної Журналістики Честь
             професії 2019
@@ -252,6 +266,7 @@
           <button class="btn btn--white blockline-cont">Перейти</button>
         </div>
       </div>
+    </div>
     </section>
 
     <section class="section-seven">
