@@ -1,0 +1,222 @@
+@media (max-width: 767.98px) {
+    /* header */
+    .header {
+        padding: 2.29px 0 2.68px 0;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .header-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-logo__mobile {
+        display: block;
+    }
+
+    .header-logo__desktop {
+        display: none;
+    }
+
+   .header_icon {
+     display: none;
+   }
+
+   .open_menu {
+    display: block;
+   }
+
+   /* section-two */
+   .section-one__background {
+       max-width: 384px;
+       height: 186.96px;
+       background-image: url(images/sectionone/giantpanda.png);
+       background-size: cover;
+       background-repeat: no-repeat;
+   }
+
+   .orange-circle {
+        height: 119.09095764160156px;
+        width: 119.09095764160156px;
+        border-radius: 50%;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        margin-left: 180.6px;
+        margin-top: 22.17px;
+
+   }
+
+   .section-one__title {
+        display: flex;
+        flex-direction: column;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 75%;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        padding-top: 18.95px;
+        padding-left: 18.7px;
+    }
+
+    /* section-two */
+    .section-two {
+        padding: 20.04px 17px 60px 17px;
+        background-image: url(images/sectiontwo/flowerfoto1.png), url(images/sectiontwo/palm_foto.png), url(images/sectiontwo/strelitzia.png);
+        background-repeat: no-repeat;
+        background-position: right -51px top 30px, left bottom, right -18px bottom;
+        background-size: 85px, 47px, 87px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+    .section-two__wrap {
+        max-width: 300px;
+        margin-bottom: 40px;
+    }
+
+    .bamboo-cap__img {
+        display: none;
+    }
+
+    .section-two__title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .section-two__info1 {
+        margin-bottom: 20px;
+    }
+
+    .section-two__subtitle {
+        margin-bottom: 10px;
+    }
+
+    .section-one__btn-mobile {
+        display: block;
+        margin: 0 auto;
+        padding: 16px 1px 16px 5px;
+        width: 298px;
+        font-size: 16px;
+        color: white;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+
+    .section-one__btn-mobile:hover {
+        background: #E47209;
+    }
+    
+    .section-one__btn-mobile:active {
+        background: #4B9200;
+    }
+    
+    
+    .section-two__gallery {
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .gallery-card {
+        max-width: 285.24px;
+    }
+
+    .gallery-img {
+        max-width: 283.24px;
+        max-height: 285.24px;
+    }
+
+    /* section-three */
+    .section-three {
+        padding: 20px 11px 20px 11px;
+    }
+
+    .main-wrap {
+        padding: 20px 2px 40px 0;
+    }
+
+    .section-three__title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .section-three__subtitle {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .section-three__text, .section-three__subtext {
+        display: none;
+    }
+
+    .section-three__caption {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .img-box {
+        margin-bottom: 10px;
+    }
+    
+    .cart-arrow {
+        display: none;
+    }
+
+    .section-three__gallery {
+        gap: 20px;
+        margin-bottom: 39px;
+    }
+
+    .section-three__btn {
+        width: 267px;
+    }
+
+    /* section-four */
+    .section-four {
+        padding: 30px 10px 60px 10px;
+        background-image: url(images/sectionfour/leav_foto.png);
+        background-repeat: no-repeat;
+        background-position: right bottom -52px;
+        background-size: 72px;
+    }
+
+    .gallery-cart__gradient {
+        width: 299px;
+        height: 109px;
+    }
+
+    .gallery-cart__gradient:nth-child(4) {
+        display: none;
+    }
+
+    .gallery-cart__background {
+        width: 264px;
+        height: 105px;
+    }
+
+    .gallery-cart__content {
+        height: 38px;
+        overflow: hidden;
+    }
+
+    .section-four__linescroll {
+        display: none;
+    }
+
+    .section-four__btn {
+        width: 240px;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+}

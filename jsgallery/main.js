@@ -1,4 +1,3 @@
-console.log('YO');
 
 let btn_prev = document.querySelector ('#gallery .buttons .prev');
 let btn_next = document.querySelector ('#gallery .buttons .next');

@@ -30,6 +30,10 @@ BODY {
     padding: 20px;
 }
 
+.open_menu {
+    display: none;
+}
+
 .close_menu {
     display: none;
 }
