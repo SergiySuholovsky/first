@@ -1,0 +1,295 @@
+@media  (max-width: 767.98px) and (min-width: 480px) {
+    /* header */
+    .header {
+        padding: 2.68px 5px;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .header-list.open {
+        position: fixed;
+        width: 100%;
+        padding: 83px 256px 50px 10px;
+        top: 0px;
+        left: -64px;
+        z-index: 999;
+        font-size: 16px;
+        font-weight: 400;
+        color: #333B41;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background: #E5E5E5;
+        background-image: url(images/header/logoheaderopen.png);
+        background-repeat: no-repeat;
+        background-position: top 10px left 10px;
+    }
+
+    .open_menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .close_menu.open {
+        display: block;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    .open_menu.open {
+        display: none;
+    }
+
+    .header-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-logo__mobile {
+        display: block;
+    }
+
+    .header-logo__desktop {
+        display: none;
+    }
+
+   .header_icon {
+     display: none;
+   }
+
+   .open_menu {
+    display: block;
+   }
+
+    /* section-one */
+    .section-one__background {
+        height: 339px;
+        background-image: url(images/sectionone/giantpanda.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .orange-circle {
+        width: 237.6px;
+        height: 237.6px;
+        border-radius: 50%;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        margin-left: 320px;
+        margin-top: 10.23px;
+    }
+
+    .section-one__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 700;
+        font-size: 54.2894px;
+        line-height: 41px;
+        padding-top: 37.81px;
+        padding-left: 76.3px;
+    }
+
+    .section-one__btn {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    /* section-two */
+    .section-two {
+        padding-top: 60px;
+        background-image: url(images/sectiontwo/flowerfoto1.png), url(images/sectiontwo/palm_foto.png), url(images/sectiontwo/strelitzia.png);
+        background-position: right -30px top -6px, left bottom, right -18px bottom;
+        background-size: 160px, 125px, 190px;
+        position: relative;
+    }
+
+    .bamboo-cap__img {
+        display: none;
+    }
+
+    .section-two__info1 {
+        margin-bottom: 30px;
+    }
+
+    .section-two__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .section-two__wrap {
+        margin-bottom: 80px;
+    }
+
+    .section-two__gallery {
+        margin-bottom: 60px;
+    }
+
+    .gallery-img {
+        width: 285.24px;
+        height: 285.24px;
+    }
+
+    .gallery-card:nth-child(n+5) {
+        display: none;
+    }
+
+    .gallery-card:nth-child(-n+2) {
+        margin-bottom: 60px;
+    }
+
+    .gallery-prev__btn {
+        position: absolute;
+        left: 242px;
+        bottom: 572px;
+    }
+
+    .gallery-next__btn {
+        position: absolute;
+        right: 242px;
+        bottom: 572px;
+    }
+
+    /* section-three */
+    .section-three {
+        padding: 20px 0 20px 0;
+        position: relative;
+    }
+
+    .main-wrap {
+        padding:  10px 20px 60px 20px;
+    }
+
+    .section-three__title {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+    .section-three__subtitle {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .section-three__subtext {
+        margin-bottom: 30px;
+    }
+
+    .cart-arrow {
+        display: none;
+    }
+
+    .section-three__gallery {
+        margin-bottom: 40px;
+        gap: 33px;
+    }
+
+    .tablet-arrow__one {
+        display: block;
+        position: absolute;
+        left: 168px;
+        top: 389px;
+    }
+
+    .tablet-arrow__two {
+        display: block;
+        position: absolute;
+        right: 181px;
+        bottom: 392px;
+    }
+
+    /* section-four */
+    .section-four {
+        padding-top: 60px;
+        padding-bottom: 80px;
+        background-image: url(images/sectionfour/leav_foto.png);
+        background-position: right bottom -59px;
+        background-size: 109px;
+    }
+
+    .section-four__title {
+        margin-bottom: 30px;
+    }
+
+    .section-four__gallery {
+        gap: 15px;
+        margin-bottom: 40px;
+    }
+
+    .gallery-cart__gradient:last-child {
+        display: none;
+    }
+
+    .gallery-cart__gradient {
+        max-width: 600px;
+        max-height: 109px;
+    }
+
+    .gallery-cart__background {
+        max-width: 598px;
+        max-height: 105px;
+    }
+
+    .gallery-cart__content {
+        height: 38px;
+        overflow: hidden;
+    }
+
+    .section-four__linescroll {
+        display: none;
+    }
+
+    .section-four__btn {
+        width: 240px;
+        display: block;
+        margin: 0 auto;
+        text-transform: uppercase;
+    }
+
+    /* footer */
+    .footer {
+        padding-top: 13px;
+        padding-bottom: 12px;
+        position: relative;
+    }
+    
+    .footer-input {
+        display: none;
+    }
+
+    .logoandinput-cont {
+        margin-bottom: 32px;
+    }
+
+    .name {
+        display: none;
+    }
+
+    .footer-list {
+      gap: 37px;
+    }
+
+    .footer-copyright {
+        margin-left: 73px;
+        margin-top: 67px;
+    }
+
+    .footer-icons {
+        margin-top: 0;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    .icon-wrap {
+        margin-bottom: 20px;
+    }
+
+    
+
+
+
+
+
+
+}
